@@ -4,3 +4,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    grid-template-rows: 100px 100px;
+    gap: 30px;
+    width: 100%;
+    background-color: #FFE5E5;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    background-color: #A8DF8E;
+}
+
+/* Col 5 (Auto) - Row 3 (300px) */
